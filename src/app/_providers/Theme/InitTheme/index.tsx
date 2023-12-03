@@ -1,6 +1,6 @@
-import Script from 'next/script'
+import Script from "next/script";
 
-import { defaultTheme, themeLocalStorageKey } from '../ThemeSelector/types'
+import { defaultTheme, themeLocalStorageKey } from "../ThemeSelector/types";
 
 export const InitTheme: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ export const InitTheme: React.FC = () => {
     }
 
     function themeIsValid(theme) {
-      return theme === 'light' || theme === 'dark'
+      return theme === 'light' 
     }
 
     var themeToSet = '${defaultTheme}'
@@ -45,5 +45,5 @@ export const InitTheme: React.FC = () => {
   `,
       }}
     />
-  )
-}
+  );
+};

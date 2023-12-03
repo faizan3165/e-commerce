@@ -91,7 +91,7 @@
   padding: calc(var(--base) * 0.25) calc(var(--base) * 0.25);
 }
 
-:global([data-theme="dark"]) {
+:global([data-theme="light"]) {
   .quantity {
     background-color: var(--theme-elevation-150);
   }
